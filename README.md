@@ -4,7 +4,7 @@ This repository contains the MATLAB code, processed experiment inputs, saved out
 
 The repository evaluates robust Kalman filtering under additive hybrid measurement noise, where a persistent Gaussian background component coexists with impulsive or heavy-tailed disturbances. It contains two complementary experiment packages:
 
-- `ToyModel_GMM/` — Monte Carlo simulations for Gaussian-mixture, Gaussian-plus-Laplacian-outlier, additive Gaussian–Student's t, and additive Gaussian–Slash measurement-noise settings.
+- `ToyModel/` — Monte Carlo simulations for Gaussian-mixture, Gaussian-plus-Laplacian-outlier, additive Gaussian–Student's t, and additive Gaussian–Slash measurement-noise settings.
 - `UrbanNav_Experiment/` — A two-dimensional GNSS/UrbanNav trajectory-estimation experiment with included processed MATLAB data, filter implementations, saved outputs, and plotting scripts.
 
 ## Requirements
@@ -19,7 +19,7 @@ Run scripts from their own experiment directories because several scripts use re
 ### Synthetic experiments
 
 ```matlab
-cd ToyModel_GMM
+cd ToyModel
 run_GMM_simulation
 ```
 
@@ -43,7 +43,7 @@ The main UrbanNav driver loads the processed inputs from `data/`, adds `filters/
 
 ```text
 .
-├── ToyModel_GMM/              Synthetic experiments and saved outputs
+├── ToyModel/              Synthetic experiments and saved outputs
 └── UrbanNav_Experiment/       UrbanNav experiment
     ├── data/                  Processed MATLAB input files
     ├── filters/               Filter implementations
