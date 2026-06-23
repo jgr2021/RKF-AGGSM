@@ -1,0 +1,50 @@
+# UrbanNav_Experiment
+
+This directory contains the MATLAB implementation of the UrbanNav/GNSS trajectory-estimation experiment used to compare robust Kalman filtering methods on processed two-dimensional position and velocity data.
+
+## Quick start
+
+Run the full comparison from this directory:
+
+```matlab
+cd UrbanNav_Experiment
+run_UrbanNav_full_comparison
+```
+
+The driver automatically:
+
+1. adds `filters/` to the MATLAB path;
+2. loads processed data from `data/`;
+3. estimates nominal Gaussian and Student's t reference parameters from the position residuals;
+4. loads available tuned hyperparameters;
+5. runs all implemented filters and records RMSE, MAE, and runtime;
+6. saves consolidated results to `results/UrbanNav_full_results.mat`.
+
+## Main scripts
+
+| Script | Purpose |
+|---|---|
+| `run_UrbanNav_full_comparison.m` | Runs the full method comparison and saves final metrics/results. |
+| `run_UrbanNav_param_scan.m` | Performs an UrbanNav parameter scan. |
+| `tune_hyperparameters_UrbanNav.m` | Tunes Huber, GSTM, and RKF-TAU hyperparameters. |
+| `tune_slash_UrbanNav.m` | Tunes additive Gaussian–Slash parameters. |
+| `generate_UrbanNav_performance_figure.m` | Regenerates the combined RMSE/MAE plot from saved results. |
+| `generate_UrbanNav_RMSE_MAE_separate.m` | Generates separate RMSE and MAE graphics. |
+| `generate_GNSS_Traj_figure.m` | Generates the GNSS/ground-truth trajectory visualization. |
+| `load_UrbanNav_data.m` | Loads and aligns the processed position, measurement, and velocity inputs. |
+
+## Subdirectories
+
+- `data/` contains the processed MATLAB inputs. See `data/README.md`.
+- `filters/` contains individual filter functions. See `filters/README.md`.
+- `results/` contains saved comparison outputs and figures. See `results/README.md`.
+
+## Implemented methods
+
+The full comparison invokes KF, particle filtering, Huber filtering, Gaussian robust filtering, Student's t filtering, Gaussian–Student's t mixture filtering, RKF-TAU, and additive Gaussian–GSM / Slash variants. Method implementations are in `filters/`.
+
+## Requirements and cautions
+
+- MATLAB with the Statistics and Machine Learning Toolbox is required.
+- Run from this directory because the scripts use relative paths such as `data/`, `filters/`, and `results/`.
+- The included `.mat` files contain processed inputs and saved outputs. Confirm redistribution rights for the data before making a public release.
