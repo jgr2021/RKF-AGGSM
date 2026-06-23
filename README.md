@@ -7,6 +7,28 @@ The repository evaluates robust Kalman filtering under additive hybrid measureme
 - `ToyModel/` — Monte Carlo simulations for Gaussian-mixture, Gaussian-plus-Laplacian-outlier, additive Gaussian–Student's t, and additive Gaussian–Slash measurement-noise settings.
 - `UrbanNav_Experiment/` — A two-dimensional GNSS/UrbanNav trajectory-estimation experiment with included processed MATLAB data, filter implementations, saved outputs, and plotting scripts.
 
+## Background and Research Significance
+
+Robust state estimation becomes challenging when measurement errors contain two coexisting sources of uncertainty: a persistent Gaussian background component and intermittent impulsive disturbances. This situation arises in practical sensing systems such as urban GNSS navigation, where ordinary measurement uncertainty remains present while multipath, blockage, or other abnormal events introduce occasional large errors.
+
+A conventional Kalman filter models the total measurement error by a single Gaussian distribution. Many robust filters instead replace the total error by one heavy-tailed distribution. Although such models can mitigate outliers, they do not explicitly preserve the physical additive structure in which Gaussian background uncertainty remains active during impulsive events.
+
+The proposed additive Gaussian--Gaussian scale mixture (AGGSM) framework addresses this issue by modeling the measurement noise as
+
+$$
+\mathbf{v}_k
+============
+
+\mathbf{v}^{\mathrm{B}}_k
++
+\mathbf{v}^{\mathrm{I}}_k,
+$$
+
+where (\mathbf{v}^{\mathrm{B}}_k) represents the persistent Gaussian background component and (\mathbf{v}^{\mathrm{I}}_k) represents the impulsive GSM component. This formulation preserves both uncertainty sources within one recursive filtering model rather than approximating their sum by a single distribution.
+
+A key feature of AGGSM is the variance offset (d>0), which prevents the latent impulsive scale from approaching zero and retains a nonzero Gaussian background contribution during abnormal measurements. Combined with a deterministic MAP-based latent-variable update, the resulting robust Kalman filters provide a tractable recursive solution for additive hybrid-noise estimation.
+
+The repository includes Gaussian-mixture, Gaussian-plus-Laplacian, additive Gaussian--Student's (t), additive Gaussian--Slash, and UrbanNav experiments to evaluate this modeling principle under both controlled and real-world navigation conditions.
 
 
 ## Quick start
