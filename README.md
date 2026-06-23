@@ -55,18 +55,6 @@ https://github.com/IPNL-POLYU/UrbanNavDataset
 
 This repository does not claim ownership of the UrbanNav dataset. The included files are used only for reproducing the experiments reported in our work. Users should follow the original UrbanNav data-access conditions, citation requirements, and any applicable redistribution restrictions.
 
-If you use the UrbanNav dataset in your research, please cite the original UrbanNav publication:
-
-```bibtex
-@inproceedings{hsu2021urbannav,
-  title={UrbanNav: An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas},
-  author={Hsu, Li-Ta and Kubo, Nobuaki and Wen, Weisong and Chen, Wu and Liu, Zhizhao and Suzuki, Taro and Meguro, Junichi},
-  booktitle={Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation},
-  pages={226--256},
-  year={2021}
-}
-```
-
 
 ## Citation
 
