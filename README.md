@@ -71,17 +71,14 @@ The main UrbanNav driver loads the processed inputs from `data/`, adds `filters/
 
 The urban navigation data used in this repository are derived from the **UrbanNav Dataset**. We gratefully acknowledge the UrbanNav authors and maintainers for publicly releasing this challenging multisensory benchmark for research on robust positioning and navigation in urban environments.
 
-UrbanNav provides GNSS, IMU, LiDAR, camera, and ground-truth measurements collected in challenging urban canyons. The original dataset, documentation, and usage instructions are available from the official UrbanNav GitHub repository:
-
-https://github.com/IPNL-POLYU/UrbanNavDataset
-
-This repository does not claim ownership of the UrbanNav dataset. The included files are used only for reproducing the experiments reported in our work. Users should follow the original UrbanNav data-access conditions, citation requirements, and any applicable redistribution restrictions.
+UrbanNav provides GNSS, IMU, LiDAR, camera, and ground-truth measurements collected in challenging urban canyons. The original dataset, documentation, and usage instructions are available from the official [UrbanNav GitHub repository](https://github.com/IPNL-POLYU/UrbanNavDataset).
 
 ## Acknowledgement
 
-We would like to express our sincere gratitude to my supervisor Prof. Xiao-Ping Zhang for his invaluable research guidance and insightful revision feedback on this manuscript. 
+I would like to express my sincere gratitude to my supervisor, Prof. Xiao-Ping Zhang, for his invaluable research guidance and insightful revision feedback on this manuscript. I would also like to thank Prof. Zhenyu Liu for his valuable discussions, constructive suggestions, and continued support throughout this work.
 
-This work originated from a course project on Bayesian Learning, [RKF-AGST](https://github.com/jgr2021/RKF-AGST), and was subsequently extended into the present study. We also thank Prof. Ercan E. Kuruoğlu and Dr. Pengcheng Hao for their valuable guidance and assistance during and after the course project.
+This work originated from a course project on Bayesian Learning, [RKF-AGST](https://github.com/jgr2021/RKF-AGST), and was subsequently extended into the present study. I also thank Prof. Ercan E. Kuruoğlu and Dr. Pengcheng Hao for their valuable guidance and assistance during and after the course project.
+
 
 
 ## Citation
