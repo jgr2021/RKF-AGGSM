@@ -52,16 +52,26 @@ The main UrbanNav driver loads the processed inputs from `data/`, adds `filters/
 
 Each directory contains its own README with more detailed usage notes.
 
-## Reproducibility notes
+## Data Notice and Acknowledgment
 
-- Synthetic drivers set `rng(2025)` for repeatable Monte Carlo trials.
-- Some driver scripts save or overwrite files such as `*_results_*.mat`, `tune_*.mat`, and `*_best_params*.mat` in the current working directory.
-- The repository includes precomputed `.mat`, `.eps`, `.png`, `.csv`, and `.xlsx` artifacts used to produce the reported comparisons.
-- Some legacy source-file names retain `AGSMG`; these names are preserved for backward compatibility with the original experiment code.
+The urban navigation data used in this repository are derived from the **UrbanNav Dataset**. We gratefully acknowledge the UrbanNav authors and maintainers for publicly releasing this challenging multisensory benchmark for research on robust positioning and navigation in urban environments.
 
-## Data notice
+UrbanNav provides GNSS, IMU, LiDAR, camera, and ground-truth measurements collected in challenging urban canyons. The original dataset, documentation, and usage instructions are available from the official UrbanNav GitHub repository:
 
-The `UrbanNav_Experiment/data/` directory contains the processed MATLAB inputs used by the included scripts. Before making the repository public, confirm that you are authorized to redistribute every data file and any derivative data under the applicable data-source terms.
+https://github.com/IPNL-POLYU/UrbanNavDataset
+
+This repository does not claim ownership of the UrbanNav dataset. The included files are used only for reproducing the experiments reported in our work. Users should follow the original UrbanNav data-access conditions, citation requirements, and any applicable redistribution restrictions.
+
+If you use the UrbanNav dataset in your research, please cite the original UrbanNav publication:
+
+```bibtex
+@inproceedings{hsu2021urbannav,
+  title={UrbanNav: An Open-Sourced Multisensory Dataset for Benchmarking Positioning Algorithms Designed for Urban Areas},
+  author={Hsu, Li-Ta and Kubo, Nobuaki and Wen, Weisong and Chen, Wu and Liu, Zhizhao and Suzuki, Taro and Meguro, Junichi},
+  booktitle={Proceedings of the 34th International Technical Meeting of the Satellite Division of The Institute of Navigation},
+  pages={226--256},
+  year={2021}
+}
 
 ## Citation
 
