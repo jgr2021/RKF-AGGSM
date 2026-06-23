@@ -7,12 +7,7 @@ The repository evaluates robust Kalman filtering under additive hybrid measureme
 - `ToyModel/` — Monte Carlo simulations for Gaussian-mixture, Gaussian-plus-Laplacian-outlier, additive Gaussian–Student's t, and additive Gaussian–Slash measurement-noise settings.
 - `UrbanNav_Experiment/` — A two-dimensional GNSS/UrbanNav trajectory-estimation experiment with included processed MATLAB data, filter implementations, saved outputs, and plotting scripts.
 
-## Requirements
 
-- MATLAB. The archive does not record a tested release.
-- Statistics and Machine Learning Toolbox, used by functions such as `mvnrnd`, `trnd`, and `randsample`.
-
-Run scripts from their own experiment directories because several scripts use relative file paths.
 
 ## Quick start
 
@@ -50,9 +45,7 @@ The main UrbanNav driver loads the processed inputs from `data/`, adds `filters/
     └── results/               Saved UrbanNav outputs
 ```
 
-Each directory contains its own README with more detailed usage notes.
-
-## Data Notice and Acknowledgment
+## Data Notice
 
 The urban navigation data used in this repository are derived from the **UrbanNav Dataset**. We gratefully acknowledge the UrbanNav authors and maintainers for publicly releasing this challenging multisensory benchmark for research on robust positioning and navigation in urban environments.
 
@@ -72,6 +65,8 @@ If you use the UrbanNav dataset in your research, please cite the original Urban
   pages={226--256},
   year={2021}
 }
+```
+
 
 ## Citation
 
