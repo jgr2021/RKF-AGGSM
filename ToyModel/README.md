@@ -1,4 +1,4 @@
-# ToyModel_GMM
+# ToyModel
 
 This directory contains MATLAB simulations for robust Kalman filtering under several synthetic measurement-noise models. The experiments use a two-dimensional constant-velocity tracking model and compare KF, particle-filter, Huber, Gaussian robust-filter, Student's t, Gaussian–Student's t mixture, divergence-based, and additive Gaussian–GSM variants.
 
@@ -18,7 +18,7 @@ Each driver sets `rng(2025)`, executes Monte Carlo trials, reports average runti
 Example:
 
 ```matlab
-cd ToyModel_GMM
+cd ToyModel
 run_GMM_simulation
 ```
 
