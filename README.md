@@ -77,6 +77,12 @@ https://github.com/IPNL-POLYU/UrbanNavDataset
 
 This repository does not claim ownership of the UrbanNav dataset. The included files are used only for reproducing the experiments reported in our work. Users should follow the original UrbanNav data-access conditions, citation requirements, and any applicable redistribution restrictions.
 
+## Acknowledgement
+
+We would like to express our sincere gratitude to my supervisor Prof. Xiao-Ping Zhang for his invaluable research guidance and insightful revision feedback on this manuscript. 
+
+This work originated from a course project on Bayesian Learning, [RKF-AGST](https://github.com/jgr2021/RKF-AGST), and was subsequently extended into the present study. We also thank Prof. Ercan E. Kuruoğlu and Dr. Pengcheng Hao for their valuable guidance and assistance during and after the course project.
+
 
 ## Citation
 
