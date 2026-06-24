@@ -13,13 +13,7 @@ Real-world measurements are rarely corrupted by only one type of uncertainty. In
 
 Rather than approximating the total error by a single Gaussian or heavy-tailed distribution, the proposed **additive Gaussian--Gaussian scale mixture (AGGSM)** framework explicitly models the two coexisting sources as
 
-$$
-\mathbf{v}_k
-=
-\mathbf{v}_k^{\mathrm{B}}
-+
-\mathbf{v}_k^{\mathrm{I}},
-$$
+$$\mathbf{v}_k=\mathbf{v}_k^{\mathrm{B}}+\mathbf{v}_k^{\mathrm{I}},$$
 
 where \(\mathbf{v}_k^{\mathrm{B}}\) denotes the persistent Gaussian background component and \(\mathbf{v}_k^{\mathrm{I}}\) denotes the impulsive GSM component.
 
