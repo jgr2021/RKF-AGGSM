@@ -9,26 +9,27 @@ The repository evaluates robust Kalman filtering under additive hybrid measureme
 
 ## Background and Research Significance
 
-Robust state estimation becomes challenging when measurement errors contain two coexisting sources of uncertainty: a persistent Gaussian background component and intermittent impulsive disturbances. This situation arises in practical sensing systems such as urban GNSS navigation, where ordinary measurement uncertainty remains present while multipath, blockage, or other abnormal events introduce occasional large errors.
+Real-world measurements are rarely corrupted by only one type of uncertainty. In applications such as urban GNSS navigation, a persistent Gaussian background error remains present while multipath, blockage, and other abnormal events introduce intermittent large deviations.
 
-A conventional Kalman filter models the total measurement error by a single Gaussian distribution. Many robust filters instead replace the total error by one heavy-tailed distribution. Although such models can mitigate outliers, they do not explicitly preserve the physical additive structure in which Gaussian background uncertainty remains active during impulsive events.
-
-The proposed additive Gaussian--Gaussian scale mixture (AGGSM) framework addresses this issue by modeling the measurement noise as
+Rather than approximating the total error by a single Gaussian or heavy-tailed distribution, the proposed **additive Gaussian--Gaussian scale mixture (AGGSM)** framework explicitly models the two coexisting sources as
 
 $$
 \mathbf{v}_k
-============
-
-\mathbf{v}^{\mathrm{B}}_k
+=
+\mathbf{v}_k^{\mathrm{B}}
 +
-\mathbf{v}^{\mathrm{I}}_k,
+\mathbf{v}_k^{\mathrm{I}},
 $$
 
-where (\mathbf{v}^{\mathrm{B}}_k) represents the persistent Gaussian background component and (\mathbf{v}^{\mathrm{I}}_k) represents the impulsive GSM component. This formulation preserves both uncertainty sources within one recursive filtering model rather than approximating their sum by a single distribution.
+where \(\mathbf{v}_k^{\mathrm{B}}\) denotes the persistent Gaussian background component and \(\mathbf{v}_k^{\mathrm{I}}\) denotes the impulsive GSM component.
 
-A key feature of AGGSM is the variance offset (d>0), which prevents the latent impulsive scale from approaching zero and retains a nonzero Gaussian background contribution during abnormal measurements. Combined with a deterministic MAP-based latent-variable update, the resulting robust Kalman filters provide a tractable recursive solution for additive hybrid-noise estimation.
+### Why AGGSM?
 
-The repository includes Gaussian-mixture, Gaussian-plus-Laplacian, additive Gaussian--Student's (t), additive Gaussian--Slash, and UrbanNav experiments to evaluate this modeling principle under both controlled and real-world navigation conditions.
+- **Preserves the physical noise structure:** background uncertainty does not disappear when an impulsive disturbance occurs.
+- **Avoids unrealistic covariance collapse:** the variance offset \(d>0\) prevents the latent impulsive scale from approaching zero and retains a nonzero Gaussian background contribution.
+- **Enables practical robust filtering:** a deterministic MAP-based latent-variable update yields tractable recursive filters for additive hybrid-noise estimation.
+
+This repository provides reproducible MATLAB implementations of [RKF-AGST](https://github.com/jgr2021/RKF-AGST) and RKF-AGSlash, together with Gaussian-mixture, Gaussian-plus-Laplacian, additive Gaussian--Student's \(t\), additive Gaussian--Slash, and real-world UrbanNav experiments. The included examples demonstrate the value of explicitly modeling additive background-plus-impulse noise for robust state estimation under challenging measurement conditions.
 
 
 ## Quick start
