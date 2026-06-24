@@ -15,7 +15,7 @@ Rather than approximating the total error by a single Gaussian or heavy-tailed d
 
 $$\mathbf{v}_k=\mathbf{v}_k^{\mathrm{B}}+\mathbf{v}_k^{\mathrm{I}},$$
 
-where \(\mathbf{v}_k^{\mathrm{B}}\) denotes the persistent Gaussian background component and \(\mathbf{v}_k^{\mathrm{I}}\) denotes the impulsive GSM component.
+where $\mathbf{v}_k^{\mathrm{B}}$ denotes the persistent Gaussian background component and $\mathbf{v}_k^{\mathrm{I}}$ denotes the impulsive GSM component.
 
 ### Why AGGSM?
 
