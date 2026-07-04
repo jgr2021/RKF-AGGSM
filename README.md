@@ -23,7 +23,7 @@ where $\mathbf{v}_k^{\mathrm{B}}$ denotes the persistent Gaussian background com
 - **Avoids unrealistic covariance collapse:** the variance offset \(d>0\) prevents the latent impulsive scale from approaching zero and retains a nonzero Gaussian background contribution.
 - **Enables practical robust filtering:** a deterministic MAP-based latent-variable update yields tractable recursive filters for additive hybrid-noise estimation.
 
-This repository provides reproducible MATLAB implementations of [RKF-AGST](https://github.com/jgr2021/RKF-AGST) and RKF-AGSlash, together with Gaussian-mixture, Gaussian-plus-Laplacian, additive Gaussian--Student's \(t\), additive Gaussian--Slash, and real-world UrbanNav experiments. The included examples demonstrate the value of explicitly modeling additive background-plus-impulse noise for robust state estimation under challenging measurement conditions.
+This repository provides reproducible MATLAB implementations of [RKF-AGST](https://github.com/jgr2021/RKF-AGST) and RKF-AGSlash, together with Gaussian-mixture, Gaussian-plus-Laplacian and real-world UrbanNav experiments. The included examples demonstrate the value of explicitly modeling additive background-plus-impulse noise for robust state estimation under challenging measurement conditions.
 
 
 ## Quick start
