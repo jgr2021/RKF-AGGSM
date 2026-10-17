@@ -1,0 +1,33 @@
+﻿family,paper_condition,archive_id,source_label,profile,nu,s,sigma,p,result
+AGST,C1,A02,D01,G1,10,2,,,outputs/agst_c1_c3_20261013/results/AGST_D01.mat
+AGST,C2,A20,D06,G3,5,5,,,outputs/agst_c1_c3_20261013/results/AGST_D06.mat
+AGST,C3,A33,C3,G3,3,10,,,outputs/thesis_conditions_20261012/results/AGST_C3.mat
+AGST,C4,A42,C4,G4,2,20,,,outputs/thesis_conditions_20261012/results/AGST_C4.mat
+AGST,C5,A46,C5,G4,2,25,,,outputs/thesis_conditions_20261012/results/AGST_C5.mat
+AGST,C6,A49,C6,G4,2,30,,,outputs/thesis_conditions_20261012/results/AGST_C6.mat
+AGST,C7,A50,C7,G4,2,40,,,outputs/thesis_conditions_20261012/results/AGST_C7.mat
+AGST,C8,A61,U04,G1,1,2,,,outputs/agst_nu1_20261013/results/AGST_U04.mat
+AGSlash,C1,B02,D01,G1,5.0,1.0,,,outputs/agslash_all_20261013/results/AGSlash_D01.mat
+AGSlash,C2,B18,D06,G1,3.0,2.0,,,outputs/agslash_all_20261013/results/AGSlash_D06.mat
+AGSlash,C3,B32,C3,G3,2.0,5.0,,,outputs/thesis_conditions_20261012/results/AGSlash_C3.mat
+AGSlash,C4,B43,L3,G3,1.8,7.0,,,outputs/condition_scan_20261013/results/AGSlash_L3.mat
+AGSlash,C5,B52,L4,G3,1.7,8.0,,,outputs/condition_scan_20261013/results/AGSlash_L4.mat
+AGSlash,C6,B58,F11,G3,1.5,7.0,,,outputs/agslash_all_20261013/results/AGSlash_F11.mat
+AGSlash,C7,B60,C4,G4,1.5,10.0,,,outputs/thesis_conditions_20261012/results/AGSlash_C4.mat
+AGSlash,C8,B64,C5,G4,1.5,15.0,,,outputs/thesis_conditions_20261012/results/AGSlash_C5.mat
+GMM,C1,GMM_C1,C1,G1,,,,,outputs/thesis_conditions_20261012/results/GMM_C1.mat
+GMM,C2,GMM_C2,C2,G2,,,,,outputs/thesis_conditions_20261012/results/GMM_C2.mat
+GMM,C3,GMM_C3,C3,G3,,,,,outputs/thesis_conditions_20261012/results/GMM_C3.mat
+GMM,C4,GMM_C4,C4,G4,,,,,outputs/thesis_conditions_20261012/results/GMM_C4.mat
+GMM,C5,GMM_C5,C5,G4,,,,,outputs/thesis_conditions_20261012/results/GMM_C5.mat
+GMM,C6,GMM_C6,C6,G4,,,,,outputs/thesis_conditions_20261012/results/GMM_C6.mat
+GMM,C7,GMM_C7,C7,G4,,,,,outputs/thesis_conditions_20261012/results/GMM_C7.mat
+GMM,C8,GMM_C8,C8,G4,,,,,outputs/thesis_conditions_20261012/results/GMM_C8.mat
+Laplace,C1,LC01,LP002,selected independently per method,,,3.0,0.05,outputs/laplace_selected8_20261013/results/C1.mat
+Laplace,C2,LC02,LP003,selected independently per method,,,3.0,0.1,outputs/laplace_selected8_20261013/results/C2.mat
+Laplace,C3,LC03,LP004,selected independently per method,,,3.0,0.2,outputs/laplace_selected8_20261013/results/C3.mat
+Laplace,C4,LC04,LP005,selected independently per method,,,3.0,0.5,outputs/laplace_selected8_20261013/results/C4.mat
+Laplace,C5,LC09,LP026,selected independently per method,,,50.0,0.05,outputs/laplace_selected8_20261013/results/C9.mat
+Laplace,C6,LC10,LP027,selected independently per method,,,50.0,0.1,outputs/laplace_selected8_20261013/results/C10.mat
+Laplace,C7,LC11,LP028,selected independently per method,,,50.0,0.2,outputs/laplace_selected8_20261013/results/C11.mat
+Laplace,C8,LC12,LP029,selected independently per method,,,50.0,0.5,outputs/laplace_selected8_20261013/results/C12.mat

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-17",
+  "matlab": "R2024b",
+  "synthetic_conditions": 32,
+  "methods": 14,
+  "replayed_trajectories_per_condition": 3,
+  "synthetic_max_abs_rmse_difference": 1.4210854715202004e-14,
+  "urban_full_route_replayed": true,
+  "urban_max_abs_position_difference": 0,
+  "all_448_archived_mean_rmse_values_verified": true,
+  "full_1000_trajectory_rerun_performed_for_this_release": false
+}

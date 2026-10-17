@@ -1,0 +1,7 @@
+# Local reruns and editor/build files
+journal/generated/
+*.asv
+*.m~
+__pycache__/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,277 @@
+[
+  {
+    "file": "synthetic/filters/pf_logweights_toy.m",
+    "source": "outputs/thesis_conditions_20261012/filters/pf_logweights_toy.m",
+    "sha256": "d6e37e9be75c7a0cf90d39adf916bfbdd205c7a987bba096e9dfbda2d4bce698"
+  },
+  {
+    "file": "synthetic/filters/test_demo.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demo.m",
+    "sha256": "f512f32e85d1d303b5ca618e1db73c775a796d89ed41a0de398b6826d435796f"
+  },
+  {
+    "file": "synthetic/filters/test_demoHuber.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoHuber.m",
+    "sha256": "9baff007e5e3b7ccf3f5cf64fb25267d3229526dbc8cd058a8c463d236d9b086"
+  },
+  {
+    "file": "synthetic/filters/test_demoRKFAGSlash.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoRKFAGSlash.m",
+    "sha256": "cf37d0e77793641d52ddb0a3eaa57b1b8a3636b425b25b21f0da8ba803e78bfd"
+  },
+  {
+    "file": "synthetic/filters/test_demoRKFAGSMG.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoRKFAGSMG.m",
+    "sha256": "c295a15548b7d6c4f1df3af1e6f3ca5ed1034f3b9ca4bad3fb68c85c958127e2"
+  },
+  {
+    "file": "synthetic/filters/test_demoRKFGaussian.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoRKFGaussian.m",
+    "sha256": "c2ecbd1465d1a3254e1386c7aa9707b29a4c81d17c7043f5b17c5c1fc4482a19"
+  },
+  {
+    "file": "synthetic/filters/test_demoRKFGSTM_general.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoRKFGSTM_general.m",
+    "sha256": "a63c171bbab04e1593e72c0d8c7c171ec2500740c2074635759797b08f63fb2e"
+  },
+  {
+    "file": "synthetic/filters/test_demoRKFST.m",
+    "source": "outputs/thesis_conditions_20261012/filters/test_demoRKFST.m",
+    "sha256": "8ce2e9a0b81bb2ee0993b8b703aaa1e31a4384f91badd9265adbaf0d3fa2fff7"
+  },
+  {
+    "file": "synthetic/call_method.m",
+    "source": "outputs/thesis_conditions_20261012/call_method.m",
+    "sha256": "b849c28f89a6344f1052094f77f1e695af7007e8a5cb6091e1004cd495f63dcc"
+  },
+  {
+    "file": "synthetic/filters/calculate_loss.m",
+    "source": "ToyModel/calculate_loss.m",
+    "sha256": "d41228efcfb77b822a62cef67f533c815bcb518c7caf22cb4d5a4143af6f601c"
+  },
+  {
+    "file": "shared/rkf_tau_filter.m",
+    "source": "common_filters/rkf_tau_filter.m",
+    "sha256": "0344b054ec80dcaee8c7c321bb85d8b79c9e26d6364c79065d2b71b230b17b32"
+  },
+  {
+    "file": "shared/rkf_tau_covariance_step.m",
+    "source": "common_filters/rkf_tau_covariance_step.m",
+    "sha256": "7d747ddb4af0f21e3d2e322a944212325ac3e801db301a9422e90b09114cff76"
+  },
+  {
+    "file": "shared/competing_filter.m",
+    "source": "competing_methods/competing_filter.m",
+    "sha256": "99881023d8cb1913a46113d5ea1e70fa9835a0ad00984f036e682d7f8a059ab2"
+  },
+  {
+    "file": "shared/competing_options.m",
+    "source": "competing_methods/competing_options.m",
+    "sha256": "56ac8986e22b23a534341db0f0d12f544f5f84efb68802d4c5d0e7e0ea7b51bb"
+  },
+  {
+    "file": "shared/nbkf_step.m",
+    "source": "competing_methods/nbkf_step.m",
+    "sha256": "edf5cfe1443f37fecabb602bd803ab0ee47c970a1239ab6d0bafac7b2b7f3feb"
+  },
+  {
+    "file": "shared/sgas_step.m",
+    "source": "competing_methods/sgas_step.m",
+    "sha256": "b140f08acec972a88cc14a8579546f2acde5838761b5bfb67792d2de70d71388"
+  },
+  {
+    "file": "shared/sgas_precision.m",
+    "source": "competing_methods/sgas_precision.m",
+    "sha256": "675116c5c17c3e8bb5a5cc555c61c94eba93c2baa0b61d99713bb3d63be6639d"
+  },
+  {
+    "file": "shared/fit_sgas_ecf.m",
+    "source": "competing_methods/fit_sgas_ecf.m",
+    "sha256": "6e5bfdf7eb1ce4609fa6bbb921833271b1a8f45c70441e5544040d59e9481ef9"
+  },
+  {
+    "file": "shared/fit_nbkf_nominal.m",
+    "source": "competing_methods/fit_nbkf_nominal.m",
+    "sha256": "8405086a7430f341f5544556b8f5946ae8d27a13a609c837b37d1d5874c047d8"
+  },
+  {
+    "file": "shared/gsm_filter_li2023.m",
+    "source": "Reviewer_Only_Independent_20261005/code/reviewer1_baselines/gsm_filter_li2023.m",
+    "sha256": "0a09ac834468ed2ba44b011f041dee1337eac38bb3c9de0cd35d726cd3badb48"
+  },
+  {
+    "file": "shared/ggm_filter_zhu2022.m",
+    "source": "Reviewer_Only_Independent_20261005/code/reviewer1_baselines/ggm_filter_zhu2022.m",
+    "sha256": "cb18c16677e109a5e1afac8d0bb49b9ec364d4f2af11bd14f8261a04cfc75916"
+  },
+  {
+    "file": "shared/gsm_covariance.m",
+    "source": "Reviewer_Only_Independent_20261005/code/reviewer1_baselines/gsm_covariance.m",
+    "sha256": "615a2c98630d9d2a3835533626174ba563190fe3b17cb06ddb537bdaea439248"
+  },
+  {
+    "file": "shared/urkf_filter.m",
+    "source": "Reviewer_Only_Independent_20261005/code/reviewer_update_resilient/urkf_filter.m",
+    "sha256": "5755d6847f87b090add912abb59b7d26d16a275ecb425ceff080379b70517223"
+  },
+  {
+    "file": "shared/urkf_step.m",
+    "source": "Reviewer_Only_Independent_20261005/code/reviewer_update_resilient/urkf_step.m",
+    "sha256": "ff0b0a2d37102c8687cb143ff33845d6f09beea4a5b4dd63d7544b8d7bc9cfe2"
+  },
+  {
+    "file": "urban/filters/competing_filter.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/competing_filter.m",
+    "sha256": "992dd7e8d24d3b783ac956b146307496f4896a5df1cbeb56e77a4daab36c4870"
+  },
+  {
+    "file": "urban/filters/ggm_filter_zhu2022.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/ggm_filter_zhu2022.m",
+    "sha256": "6a538589133749f35b6f99ddc2497f0c617ddc19d5b33bb4317d0efb03201b75"
+  },
+  {
+    "file": "urban/filters/gsm_filter_li2023.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/gsm_filter_li2023.m",
+    "sha256": "ac2c4d94d21c02446afb599f8bb784e275cd9ce8f87c58e013e2512922083e52"
+  },
+  {
+    "file": "urban/filters/Huber_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/Huber_UrbanNav.m",
+    "sha256": "665ad913070027faef722511e8cb61b2cc3b8e1e91d790a8465be22bea991c9f"
+  },
+  {
+    "file": "urban/filters/KF_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/KF_UrbanNav.m",
+    "sha256": "f9157abfd55699c34ce83633e55d2d56ffa302cfb5617abb52d2129f399f415c"
+  },
+  {
+    "file": "urban/filters/PF_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/PF_UrbanNav.m",
+    "sha256": "0599684309d2b12f1d4cab38f4687aacfa205387b51ba9027ccd724671d6a7c1"
+  },
+  {
+    "file": "urban/filters/RKF_AGSMG_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/RKF_AGSMG_UrbanNav.m",
+    "sha256": "b0e6eeb94cea13ec961a56f5b9d2c1110bf31519c3173f2d5df7814c00a921ba"
+  },
+  {
+    "file": "urban/filters/RKF_Gaussian_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/RKF_Gaussian_UrbanNav.m",
+    "sha256": "8cc4d2f4e86338f4acb2df137afbd866c616a176a7521d071e965f52ab1d1583"
+  },
+  {
+    "file": "urban/filters/RKF_GSTM_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/RKF_GSTM_UrbanNav.m",
+    "sha256": "ccb61e4b77f6d09be10f9c9acc33157a04e4073184863c47d3ba4dc99ed14d34"
+  },
+  {
+    "file": "urban/filters/RKF_Slash_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/RKF_Slash_UrbanNav.m",
+    "sha256": "90a43113a1fb3b93e2b1c7adaa1cf835a0395d9960ba7279860f6f5988970c6b"
+  },
+  {
+    "file": "urban/filters/RKF_ST_UrbanNav.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/RKF_ST_UrbanNav.m",
+    "sha256": "ab47abaf945c7c823e36f5a13147f310b053a1910fb6745126768f3b395c64bc"
+  },
+  {
+    "file": "urban/filters/rkf_tau_filter.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/rkf_tau_filter.m",
+    "sha256": "b41655be7e78f9b699b02ead27abea7663761137ab7549b2b0afb2ef2bd3e466"
+  },
+  {
+    "file": "urban/filters/urkf_filter.m",
+    "source": "outputs/tokyo_multiroute_20261012/filters/urkf_filter.m",
+    "sha256": "cae954635036eede57c0b319e876c3a93178f094be2f429f68862ea687e52b15"
+  },
+  {
+    "file": "urban/tokyo_call.m",
+    "source": "outputs/tokyo_multiroute_20261012/tokyo_call.m",
+    "sha256": "70147c89d58ba2a917fd3907d3b898df61255fda3c51110f77f30c8f38e28d04"
+  },
+  {
+    "file": "urban/filters/calculate_loss.m",
+    "source": "UrbanNav_Experiment/calculate_loss.m",
+    "sha256": "d41228efcfb77b822a62cef67f533c815bcb518c7caf22cb4d5a4143af6f601c"
+  },
+  {
+    "file": "urban/spp.conf",
+    "source": "outputs/tokyo_multiroute_20261012/spp.conf",
+    "sha256": "b778984639117715ded6f448c3cb4e544a2d8117f6ce76fa53909bccff510df9"
+  },
+  {
+    "file": "synthetic/draw_noise.m",
+    "source": "outputs/thesis_conditions_20261012/draw_noise.m",
+    "sha256": "eb486ce86dcdcee9c5e212cf01ba1a48246e91efba5948516969a4496b1d1b8b"
+  },
+  {
+    "file": "results/selected_rmse.csv",
+    "source": "outputs/iotj_narrative_20261013/v23/selected_rmse.csv",
+    "sha256": "f3f02dfd4fb10ad72cb3494719629fca0db674fee15cfb5d371a2e9637590db9"
+  },
+  {
+    "file": "results/condition_mapping.csv",
+    "source": "outputs/iotj_narrative_20261013/v23/condition_mapping.csv",
+    "sha256": "c0b75e13cc699c53eabd0dd1001f1bea59edfb388b825071486198bf96125583"
+  },
+  {
+    "file": "exploration/All_A_Horizontal.csv",
+    "source": "outputs/agst_all_20261013/All_A_Horizontal.csv",
+    "sha256": "a0374d00a0dcd0ee2a5fb0afd921202d679119dd8dec2bb723953105b3c5ed44"
+  },
+  {
+    "file": "exploration/All_A_Index.csv",
+    "source": "outputs/agst_all_20261013/All_A_Index.csv",
+    "sha256": "e085d984bc8574c7b49e8a7557b0817b94e60211ca4622fb3756f7b81bf604e2"
+  },
+  {
+    "file": "exploration/All_B_Distribution_Statistics.csv",
+    "source": "outputs/agslash_all_20261013/All_B_Distribution_Statistics.csv",
+    "sha256": "479d4e7986afb9cdbd4ee4c6d6d25a1ad2aebd91304ccc12ff6135a9776c922c"
+  },
+  {
+    "file": "exploration/All_B_Horizontal.csv",
+    "source": "outputs/agslash_all_20261013/All_B_Horizontal.csv",
+    "sha256": "7b44b4cebd3d754ca04c881024adfaa9b0c852b82af783678f15232cdeb32add"
+  },
+  {
+    "file": "exploration/All_B_Index.csv",
+    "source": "outputs/agslash_all_20261013/All_B_Index.csv",
+    "sha256": "4d8b3f5806d75ca5995e9f3c059707ece5095ff2fe9d8d5a083611b0a8441b36"
+  },
+  {
+    "file": "exploration/cross_profile_comparisons.csv",
+    "source": "outputs/agslash_all_20261013/cross_profile_comparisons.csv",
+    "sha256": "5a06eb93fb97d99549903b76f72d7893e6cb618c9c9fcc2b7b37f44173092a24"
+  },
+  {
+    "file": "exploration/paired_comparisons.csv",
+    "source": "outputs/agslash_all_20261013/paired_comparisons.csv",
+    "sha256": "a22318a83bcfcac2ec8c685f323678a78dc145ee9a9bf93779094d3e68c0703b"
+  },
+  {
+    "file": "exploration/Laplace_All12_RMSE.csv",
+    "source": "outputs/laplace_selected8_20261013/All12_RMSE.csv",
+    "sha256": "e998f45b1c8be9786ba69714809847d6818883fa8ac5f52b8f0778f3a83faced"
+  },
+  {
+    "file": "exploration/UrbanNav_two_routes_summary.csv",
+    "source": "outputs/tokyo_multiroute_20261012/summary.csv",
+    "sha256": "d82ab06096e22e79c6b28d56b9ad4c5dff094b705a25585b9a179c1e81b98e89"
+  },
+  {
+    "file": "results/urban_runtime.csv",
+    "source": "outputs/tokyo_multiroute_20261012/runtime.csv",
+    "sha256": "59aff116a47ade27221b2824ac96669a4c96044df347024e289d4deb8206bf8a"
+  },
+  {
+    "file": "results/synthetic_runtime.mat",
+    "source": "outputs/thesis_conditions_20261012/runtime.mat",
+    "sha256": "4362dbb03f820ed39201f66330a43d6ce4c0372b71614278d97cf240cc1d82ad"
+  },
+  {
+    "file": "urban/filters/urbannav_timing_options.m",
+    "source": "UrbanNav_Experiment/filters/urbannav_timing_options.m",
+    "sha256": "41f1418134d64e0999b9d524faa80332aa0b8e2ca1369f2410fa5b7300fecf6e"
+  }
+]
