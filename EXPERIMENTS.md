@@ -1,9 +1,8 @@
-# Current manuscript experiments
+# IoT-J manuscript experiments
 
 This directory contains the MATLAB implementations and frozen evaluation inputs
 for the current manuscript **Robust Kalman Filters for Additive Gaussian–GSM
-Distributions**. The root `ToyModel/` and `UrbanNav_Experiment/` directories are
-retained as earlier experiments; their saved results are not the current tables.
+Distributions**, prepared for IEEE Internet of Things Journal.
 
 ## Run
 
@@ -14,7 +13,7 @@ code download, Python environment, or absolute local path is needed for replay.
 From the repository root:
 
 ```matlab
-cd journal
+% Run from the repository root.
 validate_release          % 3 trajectories x 32 conditions x 14 methods + UrbanNav
 run_synthetic(1000)       % all 1,000 trajectories in every manuscript condition
 run_synthetic(1000,17:24) % Gaussian-mixture conditions only
